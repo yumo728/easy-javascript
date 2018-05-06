@@ -1,0 +1,960 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二节 常量 · EASYJAVASCRIPT - 可能是最适合你的 JavaScript 课程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="全栈讲师-金云龙">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter4/data-type.html" />
+    
+    
+    <link rel="prev" href="variable.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../images/favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"jyl","repo":"easy-javascript","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.longestory.com" target="_blank" class="custom-link">作者的博客</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/javascript-summary.html">
+            
+                <a href="../chapter1/javascript-summary.html">
+            
+                    
+                    第一章 JavaScript 是什么
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../chapter1/javascript-summary.html">
+            
+                <a href="../chapter1/javascript-summary.html">
+            
+                    
+                    第一节 JavaScript 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../chapter1/runtime-environment.html">
+            
+                <a href="../chapter1/runtime-environment.html">
+            
+                    
+                    第二节 运行环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../chapter1/code-debug.html">
+            
+                <a href="../chapter1/code-debug.html">
+            
+                    
+                    第三节 代码调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter2/grammar.html">
+            
+                <a href="../chapter2/grammar.html">
+            
+                    
+                    第二章 基础语法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter2/grammar.html">
+            
+                <a href="../chapter2/grammar.html">
+            
+                    
+                    第一节 语法入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter2/keywords.html">
+            
+                <a href="../chapter2/keywords.html">
+            
+                    
+                    第二节 关键字与保留字
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="variable.html">
+            
+                <a href="variable.html">
+            
+                    
+                    第三章 变量与常量
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="variable.html">
+            
+                <a href="variable.html">
+            
+                    
+                    第一节 变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="constant.html">
+            
+                <a href="constant.html">
+            
+                    
+                    第二节 常量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter4/data-type.html">
+            
+                <a href="../chapter4/data-type.html">
+            
+                    
+                    第四章 数据类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter4/data-type.html">
+            
+                <a href="../chapter4/data-type.html">
+            
+                    
+                    第一节 什么是数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../chapter4/primitive-type.html">
+            
+                <a href="../chapter4/primitive-type.html">
+            
+                    
+                    第二节 原始类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../chapter4/wrapper-type.html">
+            
+                <a href="../chapter4/wrapper-type.html">
+            
+                    
+                    第三节 包装类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../chapter4/special-type.html">
+            
+                <a href="../chapter4/special-type.html">
+            
+                    
+                    第四节 特殊类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../chapter4/type-conversion.html">
+            
+                <a href="../chapter4/type-conversion.html">
+            
+                    
+                    第五节 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter5/operator-summary.html">
+            
+                <a href="../chapter5/operator-summary.html">
+            
+                    
+                    第五章 运算符
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../chapter5/operator-summary.html">
+            
+                <a href="../chapter5/operator-summary.html">
+            
+                    
+                    第一节 什么是运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../chapter5/arithmetic-operator.html">
+            
+                <a href="../chapter5/arithmetic-operator.html">
+            
+                    
+                    第二节 算数运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../chapter5/comparison-operator.html">
+            
+                <a href="../chapter5/comparison-operator.html">
+            
+                    
+                    第三节 比较运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../chapter5/logical-operator.html">
+            
+                <a href="../chapter5/logical-operator.html">
+            
+                    
+                    第四节 逻辑运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../chapter5/assign-operator.html">
+            
+                <a href="../chapter5/assign-operator.html">
+            
+                    
+                    第五节 赋值运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../chapter5/conditional-operator.html">
+            
+                <a href="../chapter5/conditional-operator.html">
+            
+                    
+                    第六节 条件运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter6/statement-summary.html">
+            
+                <a href="../chapter6/statement-summary.html">
+            
+                    
+                    第六章 语句
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../chapter6/statement-summary.html">
+            
+                <a href="../chapter6/statement-summary.html">
+            
+                    
+                    第一节 什么是语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../chapter6/conditional-statement.html">
+            
+                <a href="../chapter6/conditional-statement.html">
+            
+                    
+                    第二节 条件语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../chapter6/loop-conditional.html">
+            
+                <a href="../chapter6/loop-conditional.html">
+            
+                    
+                    第三节 循环语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../chapter6/goto-conditional.html">
+            
+                <a href="../chapter6/goto-conditional.html">
+            
+                    
+                    第四节 跳转语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter7/one-dimensional-array.html">
+            
+                <a href="../chapter7/one-dimensional-array.html">
+            
+                    
+                    第七章 数组
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../chapter7/one-dimensional-array.html">
+            
+                <a href="../chapter7/one-dimensional-array.html">
+            
+                    
+                    第一节 一维数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../chapter7/two-dimensional-array.html">
+            
+                <a href="../chapter7/two-dimensional-array.html">
+            
+                    
+                    第二节 二维数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter8/function.html">
+            
+                <a href="../chapter8/function.html">
+            
+                    
+                    第八章 函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../chapter8/function.html">
+            
+                <a href="../chapter8/function.html">
+            
+                    
+                    第一节 函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../chapter8/predefined-function.html">
+            
+                <a href="../chapter8/predefined-function.html">
+            
+                    
+                    第二节 预定义函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter9/scope-summary.html">
+            
+                <a href="../chapter9/scope-summary.html">
+            
+                    
+                    第九章 作用域
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../chapter9/scope-summary.html">
+            
+                <a href="../chapter9/scope-summary.html">
+            
+                    
+                    第一节 什么是作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../chapter9/variable-scope.html">
+            
+                <a href="../chapter9/variable-scope.html">
+            
+                    
+                    第二节 变量作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../chapter9/function-scope.html">
+            
+                <a href="../chapter9/function-scope.html">
+            
+                    
+                    第三节 函数作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../chapter10/object-summary.html">
+            
+                <a href="../chapter10/object-summary.html">
+            
+                    
+                    第十章 对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../chapter10/object-summary.html">
+            
+                <a href="../chapter10/object-summary.html">
+            
+                    
+                    第一节 什么是对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../chapter10/object-object.html">
+            
+                <a href="../chapter10/object-object.html">
+            
+                    
+                    第二节 Object 对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../chapter10/create-object.html">
+            
+                <a href="../chapter10/create-object.html">
+            
+                    
+                    第三节 创建对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../chapter10/attribute-of-object.html">
+            
+                <a href="../chapter10/attribute-of-object.html">
+            
+                    
+                    第四节 对象的属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../chapter10/function-of-object.html">
+            
+                <a href="../chapter10/function-of-object.html">
+            
+                    
+                    第五节 对象的方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第二节 常量</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x4EC0;&#x4E48;&#x662F;&#x5E38;&#x91CF;">&#x4EC0;&#x4E48;&#x662F;&#x5E38;&#x91CF;</h2>
+<p>&#x5E38;&#x91CF;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x53EA;&#x8BFB;&#xFF08;read-only&#xFF09;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x5E38;&#x91CF;&#x4E0E;&#x53D8;&#x91CF;&#x7C7B;&#x4F3C;&#xFF0C;&#x540C;&#x6837;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x4FE1;&#x606F;&#x3002;&#x53EA;&#x662F;&#x5E38;&#x91CF;&#x7684;&#x6570;&#x636E;&#x4E00;&#x65E6;&#x88AB;&#x5B9A;&#x4E49;&#xFF0C;&#x4FBF;&#x4E0D;&#x80FD;&#x88AB;&#x4FEE;&#x6539;&#x3002;</p>
+<h2 id="&#x5E38;&#x91CF;&#x7684;&#x58F0;&#x660E;">&#x5E38;&#x91CF;&#x7684;&#x58F0;&#x660E;</h2>
+<p>&#x5728; ECMAScript 5 &#x7248;&#x672C;&#x524D;&#xFF0C;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#x5E38;&#x91CF;&#x7684;&#x8BED;&#x6CD5;&#x3002;&#x4F7F;&#x7528; <code>var</code> &#x5173;&#x952E;&#x5B57;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#xFF0C;&#x4EBA;&#x4E3A;&#x89C4;&#x5B9A;&#x503C;&#x4E0D;&#x6539;&#x53D8;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x4E0D;&#x4E25;&#x683C;&#x7684;&#x5E38;&#x91CF;&#x3002;&#x5982;&#x4E0B;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x6240;&#x793A;:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> MY_CONST = <span class="hljs-number">10</span>;
+</code></pre>
+<blockquote>
+<p><strong>&#x8BF4;&#x660E;:</strong> &#x5E38;&#x91CF;&#x540D;&#x4E60;&#x60EF;&#x4F7F;&#x7528;&#x5168;&#x5927;&#x5199;&#x5F62;&#x5F0F;&#x3002;</p>
+</blockquote>
+<p>&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x53EA;&#x662F;&#x4EBA;&#x4E3A;&#x89C4;&#x5B9A;&#x5E38;&#x91CF;&#xFF0C;&#x5E76;&#x4E0D;&#x662F;&#x8BED;&#x6CD5;&#x89C4;&#x5B9A;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5B9A;&#x4E49;&#x7684;&#x5E38;&#x91CF;&#x5E76;&#x4E0D;&#x4E25;&#x8C28;&#xFF01;</p>
+<p>&#x5728; ECMAScript 5 &#x7248;&#x672C;&#x540E;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x5173;&#x952E;&#x5B57; <code>const</code> &#x5B9A;&#x4E49;&#x5E38;&#x91CF;&#x3002;&#x5982;&#x4E0B;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x6240;&#x793A;:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> MY_CONST = <span class="hljs-number">100</span>;
+</code></pre>
+<blockquote>
+<p><strong>&#x6CE8;&#x610F;:</strong> &#x5E38;&#x91CF;&#x7684;&#x58F0;&#x660E;&#xFF0C;&#x5FC5;&#x987B;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;&#x64CD;&#x4F5C;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x62A5;&#x9519;&#x8BEF;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> MY_CONST; <span class="hljs-comment">// SyntaxError: missing = in const declaration</span>
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x7684;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x4E3A;&#x62A5;&#x9519;&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x62A5;&#x9519;&#x4FE1;&#x606F;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;:</p>
+<p><img src="images/02.png" alt=""></p>
+<blockquote>
+<p><strong>&#x8BF4;&#x660E;:</strong> &#x5982;&#x679C;&#x5B9A;&#x4E49;&#x5E38;&#x91CF;&#x65F6;&#xFF0C;&#x7701;&#x7565;&#x4E86;&#x5173;&#x952E;&#x5B57; <code>const</code> &#x7684;&#x8BDD;&#xFF0C;JavaScript &#x4F1A;&#x8BA4;&#x4E3A;&#x662F;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x3002;</p>
+</blockquote>
+<h2 id="&#x5E38;&#x91CF;&#x7684;&#x4F7F;&#x7528;">&#x5E38;&#x91CF;&#x7684;&#x4F7F;&#x7528;</h2>
+<p>&#x5E38;&#x91CF;&#x4E00;&#x65E6;&#x88AB;&#x58F0;&#x660E;&#x5E76;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x503C;&#x5E76;&#x4E0D;&#x80FD;&#x88AB;&#x6539;&#x53D8;&#x3002;&#x5E38;&#x91CF;&#x7684;&#x4F7F;&#x7528;&#x53EA;&#x80FD;&#x8FDB;&#x884C;&#x8BFB;&#x53D6;&#x64CD;&#x4F5C;:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5B9A;&#x4E49;&#x5E38;&#x91CF; MY_CONST &#x5E76;&#x8D4B;&#x503C; 7</span>
+<span class="hljs-keyword">const</span> MY_CONST = <span class="hljs-number">7</span>;
+
+<span class="hljs-comment">// &#x5728; Firefox &#x548C; Chrome &#x8FD9;&#x4F1A;&#x5931;&#x8D25;&#x4F46;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;(&#x5728; Safari &#x8FD9;&#x4E2A;&#x8D4B;&#x503C;&#x4F1A;&#x6210;&#x529F;)</span>
+MY_CONST = <span class="hljs-number">20</span>;
+<span class="hljs-built_in">console</span>.log(MY_CONST); <span class="hljs-comment">// &#x8F93;&#x51FA; 7</span>
+<span class="hljs-keyword">const</span> MY_CONST = <span class="hljs-number">20</span>; <span class="hljs-comment">// &#x5C1D;&#x8BD5;&#x91CD;&#x65B0;&#x58F0;&#x660E;&#x4F1A;&#x62A5;&#x9519; </span>
+<span class="hljs-keyword">var</span> MY_CONST = <span class="hljs-number">20</span>;<span class="hljs-comment">// MY_CONST &#x4FDD;&#x7559;&#x7ED9;&#x4E0A;&#x9762;&#x7684;&#x5E38;&#x91CF;&#xFF0C;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x4F1A;&#x5931;&#x8D25;</span>
+<span class="hljs-built_in">console</span>.log(MY_CONST);<span class="hljs-comment">// MY_CONST &#x4F9D;&#x65E7;&#x4E3A; 7</span>
+</code></pre>
+<blockquote>
+<p><strong>&#x6CE8;&#x610F;:</strong> &#x4E0A;&#x8FF0;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x5177;&#x6709;&#x65F6;&#x6548;&#x6027;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x7248;&#x672C;&#x4E0D;&#x540C;&#xFF0C;&#x7ED3;&#x679C;&#x53EF;&#x80FD;&#x4E0D;&#x540C;&#x3002; </p>
+</blockquote>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; www.longestory.com 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-01-16 13:30:46
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="variable.html" class="navigation navigation-prev " aria-label="Previous page: 第一节 变量">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter4/data-type.html" class="navigation navigation-next " aria-label="Next page: 第四章 数据类型">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二节 常量","level":"1.4.2","depth":2,"next":{"title":"第四章 数据类型","level":"1.5","depth":1,"path":"chapter4/data-type.md","ref":"chapter4/data-type.md","articles":[{"title":"第一节 什么是数据类型","level":"1.5.1","depth":2,"path":"chapter4/data-type.md","ref":"chapter4/data-type.md","articles":[]},{"title":"第二节 原始类型","level":"1.5.2","depth":2,"path":"chapter4/primitive-type.md","ref":"chapter4/primitive-type.md","articles":[]},{"title":"第三节 包装类型","level":"1.5.3","depth":2,"path":"chapter4/wrapper-type.md","ref":"chapter4/wrapper-type.md","articles":[]},{"title":"第四节 特殊类型","level":"1.5.4","depth":2,"path":"chapter4/special-type.md","ref":"chapter4/special-type.md","articles":[]},{"title":"第五节 类型转换","level":"1.5.5","depth":2,"path":"chapter4/type-conversion.md","ref":"chapter4/type-conversion.md","articles":[]}]},"previous":{"title":"第一节 变量","level":"1.4.1","depth":2,"path":"chapter3/variable.md","ref":"chapter3/variable.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-plus","github","github-buttons","-sharing","sharing-plus","tbfed-pagefooter","expandable-chapters-small","donate","github-issue-feedback","expandable-chapters-small","favicon","3-ba"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy www.longestory.com 2017","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github-issue-feedback":{"repo":"jyl/easy-javascript"},"github":{"url":"https://github.com/jyl/easy-javascript"},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"donate":{"alipay":"http://osryplwmc.bkt.clouddn.com/18-1-12/65831669.jpg","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"http://osryplwmc.bkt.clouddn.com/18-1-12/14192742.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"images/favicon.ico","bookmark":"images/favicon.ico"},"github-buttons":{"buttons":[{"user":"jyl","repo":"easy-javascript","type":"star","size":"small","count":true}]},"3-ba":{"configuration":"auto","token":"23a689e990c2c23684d753e695797e27"},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{}},"theme":"default","author":"全栈讲师-金云龙","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"EASYJAVASCRIPT - 可能是最适合你的 JavaScript 课程","language":"zh-hans","links":{"sidebar":{"作者的博客":"http://www.longestory.com"}},"gitbook":"*","description":"EASYJAVASCRIPT 课程，可能是最适合你的 JavaScript 课程。"},"file":{"path":"chapter3/constant.md","mtime":"2018-01-16T05:30:46.059Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-05T07:16:50.959Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-issue-feedback/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
